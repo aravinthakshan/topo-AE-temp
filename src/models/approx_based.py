@@ -3,9 +3,9 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-from src.topology import PersistentHomologyCalculation #AlephPersistenHomologyCalculation, \
-from src.models import submodules
-from src.models.base import AutoencoderModel
+from topology import PersistentHomologyCalculation #AlephPersistenHomologyCalculation, \
+from models import submodules
+from models.base import AutoencoderModel
 
 
 class TopologicallyRegularizedAutoencoder(AutoencoderModel):

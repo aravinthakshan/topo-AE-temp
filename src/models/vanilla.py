@@ -1,8 +1,8 @@
 """Vanilla models."""
 import torch.nn as nn
 
-from src.models import submodules
-from .base import AutoencoderModel
+from models import submodules
+from models.base import AutoencoderModel
 
 
 class ConvolutionalAutoencoderModel(submodules.ConvolutionalAutoencoder):

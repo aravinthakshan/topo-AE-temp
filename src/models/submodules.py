@@ -5,7 +5,7 @@ import torch.nn as nn
 from torch.distributions import Normal
 import torch.nn.functional as F
 
-from .base import AutoencoderModel
+from models.base import AutoencoderModel
 # Hush the linter: Warning W0221 corresponds to a mismatch between parent class
 # method signature and the child class
 # pylint: disable=W0221
