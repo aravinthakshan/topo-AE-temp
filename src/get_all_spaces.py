@@ -6,12 +6,12 @@ sys.path.append('../')
 
 import torch
 
-from src.datasets import CIFAR
-from src.datasets import FashionMNIST
-from src.datasets import MNIST
-from src.datasets import Spheres
+from datasets import CIFAR
+from datasets import FashionMNIST
+from datasets import MNIST
+from datasets import Spheres
 
-from src.evaluation.utils import get_space
+from evaluation.utils import get_space
 
 
 def load_data(name):
